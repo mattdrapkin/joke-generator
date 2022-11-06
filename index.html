@@ -2,12 +2,31 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <title>Joke Generator</title>
     </head>
     <body>
-        <!-- Split-view containers -->
-        <div class="split-box"></div>
-        <div class="split-box"></div>
+        <div class="flex-container">
+            <!-- Split-view containers -->
+            <div class="split-box">
+                <h1>&#128514 My joke generator &#128514</h1>
+                <p>The one stop shop for eyeroll-worthy puns, laughs, and goofs. Get a random joke, or select a category!s</p>
+                <button id="random-btn">Make me laugh!</button>
+                <div id="btn-row">
+                    <button id="hipster-btn">Hipster</button>
+                    <button id="history-btn">History</button>
+                    <button id="bees-btn">Bees</button>
+                </div>
+                
+
+            </div>
+            <div class="split-box">
+                <p id="joke">This is a placeholder for the joke.</p>
+                <img src="https://www.looper.com/img/gallery/nearly-26-think-this-ross-moment-on-friends-went-too-far/intro-1628259235.jpg">
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>

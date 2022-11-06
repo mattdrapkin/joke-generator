@@ -1,6 +1,59 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 202, 124);
+}
+
 .split-box {
-    background-color: antiquewhite;
+    background-color: rgb(255, 199, 125);
     margin: 20px;
     width: 30vw;
-    height: 50vh;
+    height: 60vh;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    min-width: 300px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+button {
+    padding: 16px;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: border 1s, padding ease-out 1s;
+}
+
+button:hover {
+    border: 10px solid rgb(251, 193, 19);
+    font-size: 24px;
+}
+
+img {
+    width: 75%;
+    height: max-content;
+}
+
+#btn-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
